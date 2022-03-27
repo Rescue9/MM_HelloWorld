@@ -16,8 +16,15 @@ cat $MODPATH/lang/"$LANG"/"$LANG"_intro.txt
 
 #Volume Selector 
 #Print text for up or down
-#if chooseport 10; then
-#    cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
-#else
-#    cat $MODPATH/lang/"$LANG"/"$LANG"_volDownPressed.txt
-#fi 
+if chooseport 10; then
+    cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
+else
+    cat $MODPATH/lang/"$LANG"/"$LANG"_volDownPressed.txt
+fi 
+
+#Print text for up or down
+if chooseport 10; then
+    cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
+else
+    cat $MODPATH/lang/"$LANG"/"$LANG"_volDownPressed.txt
+fi 
