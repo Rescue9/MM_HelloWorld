@@ -4,4 +4,4 @@ version=v1.0.1
 versionCode=1
 author=Rescue9
 description=Hello World Magisk Module for Learning
-updateJson=https://raw.githubusercontent.com/Rescue9/magisk_hello_world/develop/update.json
+updateJson=https://raw.githubusercontent.com/Rescue9/MM_HelloWorld/develop/update.json
