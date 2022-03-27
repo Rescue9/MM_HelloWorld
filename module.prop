@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v2.0
-versionCode=10
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=MM_HelloWorld
+name=Magisk Hello World
+version=v1.0.1
+versionCode=1
+author=Rescue9
+description=Hello World Magisk Module for Learning
+updateJson=https://raw.githubusercontent.com/Rescue9/magisk_hello_world/develop/update.json
