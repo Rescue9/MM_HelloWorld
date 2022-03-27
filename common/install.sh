@@ -16,6 +16,10 @@ cat $MODPATH/lang/"$LANG"/"$LANG"_intro.txt
 
 #Volume Selector 
 #Print text for up or down
+ui_print ""
+ui_print ""
+ui_print "Press Volume up or down"
+ui_print ""
 if chooseport 10; then
     cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
 else
@@ -23,6 +27,10 @@ else
 fi 
 
 #Print text for up or down
+ui_print ""
+ui_print ""
+ui_print "Press Volume up or down"
+ui_print ""
 if chooseport 10; then
     cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
 else
