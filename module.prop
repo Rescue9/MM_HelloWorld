@@ -1,7 +1,7 @@
 id=MM_HelloWorld
 name=Magisk Hello World
-version=v1.0.2
-versionCode=2
+version=v1.0.4
+versionCode=4
 author=Rescue9
 description=Hello World Magisk Module for Learning
 updateJson=https://raw.githubusercontent.com/Rescue9/MM_HelloWorld/develop/update.json
