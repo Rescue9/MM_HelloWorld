@@ -14,25 +14,28 @@ fi
 # Print Hello World
 cat $MODPATH/lang/"$LANG"/"$LANG"_intro.txt
 
-#Volume Selector 
-#Print text for up or down
-ui_print ""
-ui_print ""
-ui_print "Press Volume up or down"
-ui_print ""
-if chooseport 10; then
-    cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
-else
-    cat $MODPATH/lang/"$LANG"/"$LANG"_volDownPressed.txt
-fi 
+##Volume Selector 
+##Print text for up or down
+#ui_print ""
+#ui_print ""
+#ui_print "Press Volume up or down"
+#ui_print ""
+#if chooseport 10; then
+#    cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
+#else
+#    cat $MODPATH/lang/"$LANG"/"$LANG"_volDownPressed.txt
+#fi 
 
-#Print text for up or down
-ui_print ""
-ui_print ""
-ui_print "Press Volume up or down"
-ui_print ""
-if chooseport 10; then
-    cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
-else
-    cat $MODPATH/lang/"$LANG"/"$LANG"_volDownPressed.txt
-fi 
+##Print text for up or down
+#ui_print ""
+#ui_print ""
+#ui_print "Press Volume up or down"
+#ui_print ""
+#if chooseport 10; then
+#    cat $MODPATH/lang/"$LANG"/"$LANG"_volUpPressed.txt
+#else
+#    cat $MODPATH/lang/"$LANG"/"$LANG"_volDownPressed.txt
+#fi 
+
+ui_print "cmd overlay enable com.lsfpicon.nobkg"
+cmd overlay enable com.lsfpicon.nobkg
